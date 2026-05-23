@@ -27,9 +27,9 @@ export function Sidebar({ onClose }: SidebarProps) {
     return (
         <aside className="flex h-full w-64 flex-col border-r rtl:border-l rtl:border-r-0 bg-background">
             {/* Logo */}
-            <div className="flex pt-4 items-center justify-between px-6">
+            <div className="flex pt-3 items-center justify-between px-6">
                 <Link to="/" className="text-2xl font-heading gap-2 flex items-center font-bold text-primary" onClick={onClose}>
-                <img src="/logo-icon.png" alt="" className="w-16" />
+                <img src="/logo-icon.png" alt="" className="w-13" />
                     Majlis
                 </Link>
                 {onClose && (
